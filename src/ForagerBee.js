@@ -9,7 +9,7 @@ var ForagerBee = function() {
 };
 
 // set the prototype
-ForagerBee.prototype = Object.create(Grub.prototype);
+ForagerBee.prototype = Object.create(Bee.prototype);
 // set the constructor
 ForagerBee.prototype.constructor = ForagerBee;
 // a forage method that allows the bee to add a treasure to the treasureChest

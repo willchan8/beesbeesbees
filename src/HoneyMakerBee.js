@@ -8,7 +8,7 @@ var HoneyMakerBee = function() {
 };
 
 // set the prototype
-HoneyMakerBee.prototype = Object.create(Grub.prototype);
+HoneyMakerBee.prototype = Object.create(Bee.prototype);
 // set the constructor
 HoneyMakerBee.prototype.constructor = HoneyMakerBee;
 // a makeHoney method that adds 1 to that honeyBee\'s honeyPot
